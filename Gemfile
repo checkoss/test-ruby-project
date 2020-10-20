@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
-gem 'fastreader'
-gem 'nokogiri'
-gem 'rack', '~> 1.1'
-gem 'rspec'
-gem 'pdfkit', '~> 0.5'
+
+gem 'authlogic', '~> 1.4.1'
+gem 'sinatra', '>= 1.3.0', '< 1.3.4'
+gem 'jbuilder', '< 2.1'
